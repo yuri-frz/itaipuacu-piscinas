@@ -1,0 +1,22 @@
+ITAIPUAÇU PISCINAS
+Yuri Ferraz de Almeida
+Aplicativos Híbridos — Aula 8
+
+Extraia o ZIP e abra o terminal na pasta com o package.json.
+
+1. npm ci
+2. npm start
+3. Abra o QR Code no Expo Go compatível com o SDK 58.
+
+No navegador: npm run web
+
+E-mail: yuri@exemplo.com
+Senha: 123456
+
+O botão de conta de teste preenche os campos.
+
+Explore os modelos, teste os filtros, abra os detalhes e saia pelo Perfil.
+Veja README.md e docs/APRESENTACAO.md para entender e apresentar o projeto.
+
+O catálogo é fictício. A sessão é temporária, como no exemplo da aula.
+A validação em celular e a publicação no GitHub ainda precisam ser feitas.
