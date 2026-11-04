@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Itaipuaçu Piscinas",
+    "slug": "itaipuacu-piscinas-yuri",
+    "version": "1.0.0",
+    "scheme": "itaipuacupiscinas",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "asyncRoutes": false
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
