@@ -29,7 +29,7 @@ export default function Inicio() {
       </View>
       <View style={s.cabecalho}><Text style={s.secao}>Escolha seu estilo</Text><Text style={s.contagem}>{itens.length} modelos</Text></View>
       <View style={s.filtros} accessibilityRole="radiogroup" accessibilityLabel="Tamanho da piscina">{filtros.map(filtro => <Pressable key={filtro.valor} accessibilityRole="radio" accessibilityLabel={`Filtrar ${filtro.titulo}`}
-        accessibilityState={{ checked: categoria === filtro.valor }} onPress={() => setCategoria(filtro.valor)}
+        aria-checked={categoria === filtro.valor} onPress={() => setCategoria(filtro.valor)}
         style={[s.filtro, categoria === filtro.valor && s.filtroAtivo]}>
         <Text style={[s.filtroTexto, categoria === filtro.valor && { color: c.fundo }]}>{filtro.titulo}</Text>
       </Pressable>)}</View>
